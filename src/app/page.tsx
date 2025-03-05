@@ -1,7 +1,10 @@
+import React from "react";
 import BookACall from "../../components/home/BookACall";
 import CallToAction from "../../components/home/CallToAction";
 import CaseStudies from "../../components/home/CaseStudies";
 import FAQ from "../../components/home/FAQ";
+// "use client";
+
 import Hero from "../../components/home/Hero";
 import LogoMarquee from "../../components/home/LogoMarquee";
 import Pricing from "../../components/home/Pricing";
@@ -11,6 +14,7 @@ import Stats from "../../components/home/Stats";
 import Testimonials from "../../components/home/Testimonials";
 
 export default function Home() {
+
   return (
     <>
       <Hero />
